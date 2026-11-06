@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "case-study-writing",
+  "version": "0.1.0",
+  "description": "Evidence-based customer stories and portfolio case studies.",
+  "author": {
+    "name": "paulsonrison",
+    "url": "https://github.com/paulsonrison"
+  },
+  "homepage": "https://github.com/paulsonrison/case-study-writing",
+  "repository": "https://github.com/paulsonrison/case-study-writing",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Case Study Writing",
+        "shortDescription": "Evidence-based customer stories and portfolio case studies.",
+        "longDescription": "Evidence-based customer stories and portfolio case studies.",
+        "developerName": "paulsonrison",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/paulsonrison/case-study-writing",
+        "supportURL": "https://github.com/paulsonrison/case-study-writing/issues",
+        "defaultPrompt": [
+          "Use Case Study Writing with my supplied material."
+        ]
+      }
+    }
+  }
+}

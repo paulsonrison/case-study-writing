@@ -1,0 +1,14 @@
+{
+  "name": "case-study-writing-marketplace",
+  "owner": {
+    "name": "paulsonrison"
+  },
+  "plugins": [
+    {
+      "name": "case-study-writing",
+      "source": "./",
+      "description": "Evidence-based customer stories and portfolio case studies.",
+      "version": "0.1.0"
+    }
+  ]
+}

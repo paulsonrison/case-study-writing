@@ -1,0 +1,11 @@
+{
+  "name": "case-study-writing",
+  "version": "0.1.0",
+  "description": "Evidence-based customer stories and portfolio case studies.",
+  "author": {
+    "name": "paulsonrison",
+    "url": "https://github.com/paulsonrison"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}
